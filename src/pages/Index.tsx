@@ -11,6 +11,7 @@ import SectionDivider from '@/components/SectionDivider';
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <PageLoader/>
       <CustomCursor />
       <ScrollProgress />
       <Navbar />
